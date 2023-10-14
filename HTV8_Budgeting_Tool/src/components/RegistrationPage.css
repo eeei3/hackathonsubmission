@@ -2,6 +2,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 2vw;
+    padding: 1vw;
     margin: 3vw;
+}
+
+.form-items{
+    margin: 0.5vw 1vw;
+}
+
+#bottom-bordered-text{
+    border-bottom: 2px solid black;
+}
+
+#info-header{
+    border-bottom: 2px solid black;
+}
+
+#info-header h1 {
+    margin-bottom: 0.25vw;
+}
+
+.tabs-wrapper h1 {
+    margin-top: 0;
 }

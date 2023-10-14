@@ -11,7 +11,7 @@ function Header(){
     <ul>
         <li className='nav-item'><a href="">My Budgets</a></li>
         <li className='nav-item'><a href="">Explore Posts</a></li>
-        <li className='nav-item'><a href ="">Login or Sign up</a></li>
+        <li className='nav-item'><a href ="">Login / Sign up</a></li>
     </ul>
     </div>
     </div>
