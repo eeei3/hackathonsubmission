@@ -5,7 +5,7 @@ function Header(){
     <>
     <div className='header-wrapper'>
     <div className='header-item'>
-    <h1 id='nav-title'> FinForum </h1>
+    <h1 id='nav-title'> FinForums </h1>
     </div>
     <div className='nav-bar'>
     <ul>

@@ -24,3 +24,7 @@
     display: inline-block;
     margin: 0.5vw 0.75vw;
 }
+
+.nav-item a:hover{
+    color:white;
+}
