@@ -1,5 +1,5 @@
 {
     "rewrites": [
-	{"source": "/", "destination": "HTV8_Budgeting_Tool"}
+	{"source": "/", "destination": "HTV8_Budgeting_Tool/"}
     ]
 }
