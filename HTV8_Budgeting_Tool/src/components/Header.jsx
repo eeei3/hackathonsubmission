@@ -1,17 +1,19 @@
 import './Header.css'
+import { React } from 'react';
+import { Link } from 'react-router-dom';
 
-function Header(){
+const Header = () =>{
     return (
     <>
     <div className='header-wrapper'>
     <div className='header-item'>
-    <h1 id='nav-title'> FinForums </h1>
+    <h1 id='nav-title'> <Link to='/'> FinForums </Link> </h1>
     </div>
     <div className='nav-bar'>
     <ul>
-        <li className='nav-item'><a href="">My Budgets</a></li>
-        <li className='nav-item'><a href="">Explore Posts</a></li>
-        <li className='nav-item'><a href ="">Login / Sign up</a></li>
+        <li className='nav-item'><Link to='/MyBudgets'> My Budgets</Link></li>
+        <li className='nav-item'><Link to='/Threads'>Explore Posts</Link></li>
+        <li className='nav-item'><Link to='/RegistrationPage'>Login / Sign up</Link></li>
     </ul>
     </div>
     </div>
@@ -19,4 +21,4 @@ function Header(){
     )
 }
 
-export default Header
+export default Header;

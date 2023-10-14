@@ -1,3 +1,8 @@
+.header-wrapper a:hover{
+    color: white;
+    opacity: 70%;
+}
+
 .header-wrapper{
     background-color: #917E7E;
     width: 100%;
@@ -14,6 +19,7 @@
 .header-item{
     flex-grow: 1;
 }
+
 
 .nav-bar{
     list-style-type: none;
