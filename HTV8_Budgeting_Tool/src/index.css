@@ -37,6 +37,10 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+.centered-text{
+  text-align: center;
+}
 button:hover {
   border-color: #646cff;
 }

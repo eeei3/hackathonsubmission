@@ -1,0 +1,50 @@
+h3{
+    margin: 0;
+}
+
+.budget-wrapper{
+    background-color: #f6f2f2;
+    padding: 1.5vw 2vw;
+    margin: 1.5vw;
+    border-radius: 10px;
+    max-width: 30vw;
+    width: fit-content;
+    min-height: 10vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+.description{
+    font-style: italic;
+}
+
+p {
+    display: inline;
+}
+
+.summary-stats{
+    margin: 0.5vw 0;
+}
+
+.income, .expenses, .savings{
+    display: inline;
+    padding: 0.5vw;
+}
+
+#decorated-link{
+    text-decoration: underline;
+    color:blue;
+}
+
+.circle{
+    text-align: center;
+    padding: 2vw;
+}
+
+.mybudgets-dashboard{
+    margin: 1.5vw 3vw;
+}
