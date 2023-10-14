@@ -1,0 +1,26 @@
+.header-wrapper{
+    background-color: #917E7E;
+    width: 100%;
+    display: flex;
+}
+
+.header-item, .nav-bar{
+    align-self: center;
+    display: inline-block;
+    margin: 0.75vw;
+    color: white;
+}
+
+.header-item{
+    flex-grow: 1;
+}
+
+.nav-bar{
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0.5vw 0.75vw;
+}
