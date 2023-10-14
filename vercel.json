@@ -1,5 +1,5 @@
 {
     "rewrites": [
-	{"source": "/", "destination": "HTV8_Budgeting_Tool/index.html"}
+	{"source": "/", "destination": "test/hello.html"}
     ]
 }
