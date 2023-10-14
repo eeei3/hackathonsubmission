@@ -1,4 +1,3 @@
-import './App.css'
 import Header from './components/Header'
 import MyBudgets from './components/MyBudgets'
 import DefaultPage from './components/DefaultPage'
