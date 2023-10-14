@@ -1,6 +1,5 @@
 {
     "rewrites": [
-	{"source": "/HTV8_Budgeting_Tool", "destination": "https://hackathonsubmission.vercel.app/"},
-	{"source": "/test", "destination": "https://hackathonsubmission.vercel.app/funni"}
+	{"source": "/", "destination": "HTV8_Budgeting_Tool/index.html"}
     ]
 }
