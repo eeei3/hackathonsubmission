@@ -5,7 +5,6 @@ import RegistrationPage from './components/RegistrationPage'
 
 
 function App() {
-
   return (
     <>
       <Header />
