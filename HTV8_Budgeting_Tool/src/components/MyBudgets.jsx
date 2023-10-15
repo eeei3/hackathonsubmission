@@ -1,7 +1,12 @@
 import BudgetOverview from "./BudgetOverview"
 import CreateNewBudget from "./CreateNewBudget"
-
+import loggedIn from "./RegistrationPage"
+import { redirect } from "react-router-dom"
 function MyBudgets(){
+    console.log(loggedIn)
+    if (loggedIn == true) {
+        
+    
     return(
         <>
         {/*Next steps: 
@@ -19,7 +24,10 @@ function MyBudgets(){
         {/*Checks for favourite thread list,returns relevant hyperlinks list or returns explore button if none are found.*/}
         </div>
         </>
-    )
+    )}
+    else{
+        window.location.replace('/RegistrationPage');
+    }
 }
 
 export default MyBudgets

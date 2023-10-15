@@ -11,6 +11,6 @@ const firebaseConfig = {
     measurementId: import.meta.env.VITE_FIRE_MESG_ID,
 };
 
-const app = initializeApp(firebaseConfig);
-
+const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app) 
+export default app

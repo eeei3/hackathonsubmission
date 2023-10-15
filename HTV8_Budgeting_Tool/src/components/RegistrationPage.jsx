@@ -12,13 +12,13 @@ function RegistrationPage() {
     const handleChange = (event, newValue) => {
         setValue(newValue)
     };
-
+    
     const [registerEmail, setRegisterEmail] = useState("");
     const [registerPassword, setRegisterPassword] = useState("");
     const [loginEmail, setLoginEmail] = useState("");
     const [loginPassword, setLoginPassword] = useState("");
     const [user, setUser] = useState({});
-
+    var loggedIn = false;
     const register = async () => {
         try{
             const user = await createUserWithEmailAndPassword(
@@ -39,6 +39,7 @@ function RegistrationPage() {
                 loginEmail,
                 loginPassword
             );
+            loggedIn = true
         }
         catch(error){
             console.log(error.message);
@@ -48,7 +49,6 @@ function RegistrationPage() {
     const logout = async () => {
         await signOut(auth);
     }
-
 
 
 
@@ -94,6 +94,7 @@ function RegistrationPage() {
                     </TabContext>
                 </Box>
             </div>
+            <p>{user.auth}</p>
         </>
     )
 }
