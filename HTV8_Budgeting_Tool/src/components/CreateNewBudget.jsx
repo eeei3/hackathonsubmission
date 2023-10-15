@@ -1,20 +1,20 @@
 import './BudgetOverview.css';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
+import {Link} from "react-router-dom";
 
 function CreateNewBudget(){
     return(
         <>
-        <a href=''>
+        <Link to='./budgetcreation'>
         <div className='budget-wrapper'>
             <div className='circle'>
-            
             <AddCircleIcon fontSize='large'></AddCircleIcon>
             </div>
             <div className='centered-text'>
                 Create a new Budget
             </div>
         </div>
-        </a>
+        </Link>
         </>
     )
 }

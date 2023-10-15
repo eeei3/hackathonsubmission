@@ -1,0 +1,23 @@
+.expenses-fill {
+  display: flex;
+  flex-direction: column;
+}
+
+.income-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#result-msg {
+  color: green;
+}
+
+input {
+  width: 200px;
+  margin-left: 10px;
+}
+
+button {
+  width: 200px;
+}
