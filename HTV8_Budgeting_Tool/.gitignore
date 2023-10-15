@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+Python_Scripts/venv
+Python_Scripts/__pycache__
 
 # Hide Keys
 .env

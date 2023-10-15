@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 //import {Fragment} from 'react'
 import { AuthProvider } from './Auth';
 
+import BudgetCreation from "./components/BudgetCreation.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Threads' element={<Threads />}></Route>
         <Route path='/MyBudgets' element={<MyBudgets />}></Route>
         <Route path='/RegistrationPage' element={<RegistrationPage />}></Route>
+        <Route path='/MyBudgets/budgetcreation' element={<BudgetCreation />}> </Route>
       </Routes>
     </>
   )
